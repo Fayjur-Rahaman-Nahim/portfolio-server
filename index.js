@@ -15,7 +15,7 @@ app.use(express.json());
 // projectsDbUser
 // suTEYap8JD5Qpnkw
 
-const uri = "mongodb+srv://<username>:<password>@cluster0.1qdkw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://projectsDbUser:suTEYap8JD5Qpnkw@cluster0.1qdkw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function run() {
